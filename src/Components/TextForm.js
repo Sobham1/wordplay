@@ -36,7 +36,7 @@ export default function TextForm(props) {
   return (
     <>
     
-    <div className="container" style={{color:props.mode==='dark'?'white':'black',fontFamily:'courier',fontSize:'20px'}}>
+    <div className="container" style={{color:props.mode==='dark'?'white':'black',fontFamily:'courier',fontSize:'20px',marginTop:'70px'}}>
         <h1>{props.heading}</h1>
         <div className="form-floating">
         <textarea className="form-control" placeholder="Leave a comment here" id="myBox"  style={{height:'100px',backgroundColor:props.mode==='dark'?"#2F343C":'#DADCCE',color:props.mode==='dark'?'white':'black',border: props.mode === 'dark' ? '3px solid white' : '3px solid black',fontFamily:'courier',fontSize:'20px'}} value={text} onChange={handleOnChange} ></textarea>
