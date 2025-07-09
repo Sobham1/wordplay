@@ -37,3 +37,27 @@
   }
 }
 
+.welcome-message {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #444;
+  font-family: 'Helvetica', sans-serif;
+  opacity: 0;
+  animation: fadeInOut 4s ease forwards;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
